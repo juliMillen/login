@@ -19,9 +19,10 @@ public class UserService {
         if(user != null) {
             UserDTO userDTO = new UserDTO();
             userDTO.setUsername(user.getUsername());
-            userDTO.setLastName(user.getLastname());
-            userDTO.setFirstName(user.getFirstname());
+            userDTO.setLastName(user.getLastName());
+            userDTO.setFirstName(user.getFirstName());
             userDTO.setCountry(user.getCountry());
+            userDTO.setRole(user.getRole());
             return userDTO;
         }
         return null;

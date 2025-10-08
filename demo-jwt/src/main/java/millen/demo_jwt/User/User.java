@@ -25,8 +25,8 @@ public class User implements UserDetails {
 
     @Column(nullable = false)
     String username;
-    String lastname;
-    String firstname;
+    String lastName;
+    String firstName;
     String country;
     String password;
     Role role;
