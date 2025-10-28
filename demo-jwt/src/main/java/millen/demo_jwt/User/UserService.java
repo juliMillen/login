@@ -19,8 +19,8 @@ public class UserService {
         if(user != null) {
             UserDTO userDTO = new UserDTO();
             userDTO.setUsername(user.getUsername());
-            userDTO.setLastName(user.getLastName());
-            userDTO.setFirstName(user.getFirstName());
+            userDTO.setLastname(user.getLastName());
+            userDTO.setFirstname(user.getFirstName());
             userDTO.setCountry(user.getCountry());
             userDTO.setRole(user.getRole());
             return userDTO;
@@ -35,8 +35,8 @@ public class UserService {
         }
         UserDTO nuevoDTO = new UserDTO();
         nuevoDTO.setUsername(user.getUsername());
-        nuevoDTO.setLastName(user.getLastName());
-        nuevoDTO.setFirstName(user.getFirstName());
+        nuevoDTO.setLastname(user.getLastname());
+        nuevoDTO.setFirstname(user.getFirstname());
         nuevoDTO.setCountry(user.getCountry());
         return nuevoDTO;
     }

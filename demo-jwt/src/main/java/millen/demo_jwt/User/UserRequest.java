@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 public class UserRequest {
     private Integer id;
     private String username;
-    private String lastName;
-    private String firstName;
+    private String lastname;
+    private String firstname;
     private String country;
 }
